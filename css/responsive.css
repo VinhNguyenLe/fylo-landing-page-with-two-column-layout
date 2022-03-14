@@ -1,0 +1,149 @@
+@media (max-width: 540px) {
+  .header {
+    width: 100%;
+    /* margin-left: 12px;
+        margin-right: 12px; */
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  .header__logo {
+    width: 30%;
+  }
+
+  .header__logo img {
+    width: 70%;
+  }
+
+  .header__item {
+    margin-left: 24px;
+  }
+
+  .body-1 {
+    flex-direction: column-reverse;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 80px;
+    /* border: 1px solid black; */
+  }
+
+  .body__title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 27px;
+  }
+
+  .body__text {
+    font-size: 14px;
+    color: var(--Very-Dark-Blue);
+    padding: unset;
+  }
+
+  .padding-10 {
+    padding: 0 10px;
+  }
+
+  .fs-20 {
+    font-size: 20px;
+  }
+
+  .body__content {
+    width: 100%;
+  }
+
+  .body__image {
+    width: 100%;
+  }
+
+  .body__form {
+    flex-direction: column;
+  }
+
+  .body__input {
+    width: 100%;
+    margin: 16px 0;
+  }
+  .body__box {
+    width: 100%;
+  }
+
+  .body__button {
+    height: 40px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .body__link a img {
+    left: 246px;
+  }
+
+  .body__link::after {
+    left: 90px;
+    width: 172px;
+  }
+
+  .tads__container {
+    height: 380px;
+  }
+
+  .ads {
+    flex-direction: column;
+    padding: 50px 40px 0 40px;
+    text-align: center;
+  }
+
+  .ads__title {
+    font-size: 20px;
+  }
+
+  .ads__form {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .ads__form button {
+    width: 90%;
+  }
+
+  .footer__container {
+    height: 100%;
+  }
+
+  .footer {
+    padding: 50px 38px 20px 38px;
+    text-align: left;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__items {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .attribution {
+    padding: 14px 0;
+  }
+  .attribution span {
+    display: block;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 541px) {
+  .mobile {
+    display: none;
+  }
+
+  .ads__text {
+    width: 60%;
+  }
+}
